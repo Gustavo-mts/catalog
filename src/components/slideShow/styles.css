@@ -1,0 +1,27 @@
+.slick-prev,
+.slick-next {
+    z-index: 1; /* Ensure arrows are above other elements */
+    background-color: gray!important;
+    border-radius: 50%; /* Circular background */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 20px; /* Increase size of arrows */
+    color: black; /* Change the color of arrows */
+    opacity: 1; /* Make arrows fully opaque */
+}
+
+/* Ensure arrows are fully visible */
+.slick-prev {
+    left: 10px!important;
+}
+
+.slick-next {
+    right: 10px!important;
+}
